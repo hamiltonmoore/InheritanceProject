@@ -1,9 +1,9 @@
-public class TextNotification {
+public class TextNotification extends Notification {
 
     private String recipient;
     private String smsProvider;
 
-    public EmailNotification(String recipient, String smsProvider, String body, String subject, String printsometext) {
+    public TextNotification(String recipient, String smsProvider, String body, String subject, String printsometext) {
         super(body, subject, printsometext);
         this.recipient = recipient;
         this.smsProvider = smsProvider;

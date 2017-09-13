@@ -37,7 +37,7 @@ public class EmailNotification extends Notification {
     }
 
     @Override
-    protected String printsometext() {
-        return super.printsometext();
+    protected void printsometext() {
+         super.printsometext();
     }
 }

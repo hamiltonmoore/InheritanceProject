@@ -7,7 +7,7 @@ public class Notification {
     private String body;
     protected String status = default;
 
-    public Notification(String body, String subject) {
+    public Notification(String body, String subject, String printsometext) {
         createdAt() = LocalDateTime.now()
     }
 
